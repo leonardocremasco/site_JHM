@@ -7,9 +7,11 @@
 
 header{
     background-color: var(--color-blue1);
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.226);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.432);
     width: 100%;
 }
+
+/* ------------ NAV ------------------------------------------ */
 
 .nav-bar{
     display: flex;
@@ -72,7 +74,7 @@ header{
     width: 100%;
 }
 
-/* Mobile */
+/* ------------ Mobile --------------------------------------- */
 #menu-icon{
     display: none;
 }
@@ -80,7 +82,7 @@ header{
     display: none;
 }
 
-/* HAMBURGUER */
+/* ------------ HAMBURGUER ----------------------------------- */
 input{
     display: none;
 }
@@ -90,6 +92,92 @@ input{
 label{
     display: none;
 }
+
+
+/* ------------ Section Paginas ------------------------------ */
+
+.secao-head-pagina{
+    background-color: var(--color-blue2);
+    height: 200px;
+    color: var(--color-white);
+}
+.secao-linha-branca{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.secao-linha-branca h1{
+    margin-bottom: 5px;
+    font-size: 35px;
+    text-align: right;
+    /* transition-delay: 0.7s; */
+    animation: expandH1 2s ease-in-out forwards;
+}
+.secao-linha-branca p{
+    opacity: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: right;
+    /* transition-delay: 0.7s; */
+    animation: expandH1 2s ease-in-out forwards;
+}
+.secao-linha-branca hr {
+    width: 0;
+    height: 3px; /* Ajuste a altura conforme necessário */
+    border: 0px;
+    background-color: var(--color-white);
+    margin-bottom: 7px;
+    animation: expandHR 2s ease-in-out forwards; /* Mantém a largura após a animação */
+}
+
+.secao-linha-azul{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    float: right;
+    margin-top: 30px;
+    transform: scaleX(-1);
+}
+.secao-linha-azul hr {
+    width: 0;
+    height: 3px; /* Ajuste a altura conforme necessário */
+    border: 0px;
+    background-color: var(--color-blue3);
+    animation: expandHRBlue 2s ease forwards; /* Mantém a largura após a animação */
+}
+
+@keyframes expandHR {
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes expandHRBlue {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes expandH1 {
+    from {
+        width: 0%;
+        opacity: 0;
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+/* ----------------------------------------------------------- */
+
+
+
+
 
 
 /* MEDIA QUERY */
