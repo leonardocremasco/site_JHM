@@ -6,7 +6,8 @@
     <link rel="shortcut icon" href="assets/img/jhm-icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/nav.css">
-    <title>JHM | CONTATO</title>
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <title>JHM | MINHA CONTA</title>
 </head>
 <body>
     <header>
@@ -52,14 +53,56 @@
     </header>
     <section class="secao-head-pagina">
         <div class="secao-linha-branca">
-            <h1>CONTATO</h1>
+            <h1>MINHA CONTA</h1>
             <hr>
-            <p>Fale com a JHM Motores</p>
+            <p>Crie ou entre em sua conta JHM!</p>
         </div>
         <div class="secao-linha-azul">
             <hr>
         </div>
     </section>
+    <main>
+        <div class="main-all">
+            <div class="main-all-titulo">
+                <h1>Inicie sessão para realizar operações com rapidez.</h1>
+            </div>
+
+            <div class="main-all-form">
+                <h2>Inicie sessão na JHM</h2>
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <div class="form-nome">
+                        <p>
+                            <label for="inome">Nome:</label>
+                            <input type="text" name="nome" id="inome">
+                        </p>
+                        <p>
+                            <label for="isobrenome">Sobrenome:</label>
+                            <input type="text" name="sobrenome" id="isobrenome">
+                        </p>
+                    </div>
+                    <p>
+                        <label for="iemail">E-mail:</label>
+                        <input type="email" name="email" id="iemail">
+                    </p>
+                    <p>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha">
+                    </p>
+                    <p>
+                        <label for="irepsenha">Repetir senha:</label>
+                        <input type="password" name="repsenha" id="irepsenha">
+                    </p>
+                </form>
+            </div>
+            <div class="main-all-button">
+                <input type="submit" value="Criar">
+                <input type="button" value="Voltar">
+            </div>
+            <div class="main-all-esqueci">
+
+            </div>
+        </div>
+    </main>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

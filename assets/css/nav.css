@@ -83,13 +83,13 @@ header{
 }
 
 /* ------------ HAMBURGUER ----------------------------------- */
-input{
+#menu-hamburguer{
     display: none;
 }
 .hamburguer, .hamburguer::before, .hamburguer::after{
     display: none;
 }
-label{
+#menu-icon{
     display: none;
 }
 
@@ -130,22 +130,32 @@ label{
 }
 
 .secao-linha-azul{
+    display: flex;
+    flex-direction: column;
     width: 60%;
     float: right;
     margin-top: 30px;
     transform: scaleX(-1);
 }
 .secao-linha-azul hr {
-    
     width: 0;
-    height: 3px; /* Ajuste a altura conforme necessário */
+    height: 3px; /*Ajuste de altura*/
     border: 0px;
     background-color: var(--color-blue3);
-    animation: expandHR 2s ease-in-out forwards; /* Mantém a largura após a animação */
+    margin-bottom: 7px;
+    animation: expandHRblue 2s ease-in-out forwards; /* Mantém a largura após a animação */
     
 }
 
 @keyframes expandHR {
+    to {
+        width: 100%;
+    }
+}
+@keyframes expandHRblue {
+    from {
+
+    }
     to {
         width: 100%;
     }
@@ -212,7 +222,7 @@ label{
     }
 
     /* HAMBURGUER */
-    label{
+    #menu-icon{
         display: block;
     }
     .hamburguer{
@@ -241,17 +251,17 @@ label{
         bottom: -10px;
     }
 
-    input{
+    #menu-hamburguer{
         display: none;
     }
-    input:checked ~ label .hamburguer{
+    #menu-hamburguer:checked ~ label .hamburguer{
         transform: rotate(45deg);
     }
-    input:checked ~ label .hamburguer::before{
+    #menu-hamburguer:checked ~ label .hamburguer::before{
         transform: rotate(90deg);
         top: 0px;
     }
-    input:checked ~ label .hamburguer::after{
+    #menu-hamburguer:checked ~ label .hamburguer::after{
         transform: rotate(90deg);
         bottom: 0px;
     }
