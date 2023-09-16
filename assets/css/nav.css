@@ -111,7 +111,6 @@ label{
     margin-bottom: 5px;
     font-size: 35px;
     text-align: right;
-    /* transition-delay: 0.7s; */
     animation: expandH1 2s ease-in-out forwards;
 }
 .secao-linha-branca p{
@@ -119,12 +118,11 @@ label{
     margin-bottom: 5px;
     font-size: 20px;
     text-align: right;
-    /* transition-delay: 0.7s; */
     animation: expandH1 2s ease-in-out forwards;
 }
 .secao-linha-branca hr {
     width: 0;
-    height: 3px; /* Ajuste a altura conforme necessário */
+    height: 3px; /*Ajuste de altura*/
     border: 0px;
     background-color: var(--color-white);
     margin-bottom: 7px;
@@ -132,31 +130,22 @@ label{
 }
 
 .secao-linha-azul{
-    display: flex;
-    flex-direction: column;
     width: 60%;
     float: right;
     margin-top: 30px;
     transform: scaleX(-1);
 }
 .secao-linha-azul hr {
+    
     width: 0;
     height: 3px; /* Ajuste a altura conforme necessário */
     border: 0px;
     background-color: var(--color-blue3);
-    animation: expandHRBlue 2s ease forwards; /* Mantém a largura após a animação */
+    animation: expandHR 2s ease-in-out forwards; /* Mantém a largura após a animação */
+    
 }
 
 @keyframes expandHR {
-    to {
-        width: 100%;
-    }
-}
-
-@keyframes expandHRBlue {
-    from {
-        width: 0%;
-    }
     to {
         width: 100%;
     }
