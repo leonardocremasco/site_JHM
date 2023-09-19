@@ -111,14 +111,14 @@ header{
     margin-bottom: 5px;
     font-size: 35px;
     text-align: right;
-    animation: expandH1 2s ease-in-out forwards;
+    animation: expandH1 3s ease-in-out forwards;
 }
 .secao-linha-branca p{
     opacity: 0;
     margin-bottom: 5px;
     font-size: 20px;
     text-align: right;
-    animation: expandH1 2s ease-in-out forwards;
+    animation: expandH1 3s ease-in-out forwards;
 }
 .secao-linha-branca hr {
     width: 0;
@@ -143,8 +143,7 @@ header{
     border: 0px;
     background-color: var(--color-blue3);
     margin-bottom: 7px;
-    animation: expandHRblue 2s ease-in-out forwards; /* Mantém a largura após a animação */
-    
+    animation: expandHR 2s ease-in-out forwards; /* Mantém a largura após a animação */
 }
 
 @keyframes expandHR {
@@ -152,31 +151,17 @@ header{
         width: 100%;
     }
 }
-@keyframes expandHRblue {
-    from {
-
-    }
-    to {
-        width: 100%;
-    }
-}
 
 @keyframes expandH1 {
     from {
-        width: 0%;
         opacity: 0;
     }
     to {
-        width: 100%;
         opacity: 1;
     }
 }
 
 /* ----------------------------------------------------------- */
-
-
-
-
 
 
 /* MEDIA QUERY */

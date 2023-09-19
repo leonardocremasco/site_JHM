@@ -6,3 +6,4 @@ function menuAparecer(){
         menuMobile.classList.add('open')
     }
 }
+

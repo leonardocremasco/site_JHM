@@ -70,33 +70,29 @@
             <div class="main-all-form">
                 <h2>Inicie sessão na JHM</h2>
                 <form action="cadastro.php" method="post" autocomplete="on">
-                    <div class="form-nome">
-                        <p class="form-group">
-                            <input type="text" name="nome" id="inome" class="form-input">
-                            <label for="inome" class="form-label">Nome:</label>
-                        </p>
-                        <p class="form-group">
-                            <input type="text" name="sobrenome" id="isobrenome" class="form-input">
-                            <label for="isobrenome" class="form-label">Sobrenome:</label>
-                        </p>
-                    </div>
+
                     <p class="form-group">
-                        <input type="email" name="email" id="iemail" class="form-input">
+                        <input type="text" name="nome" id="inome" class="form-input" required>
+                        <label for="inome" class="form-label">Nome completo:</label>
+                    </p>
+        
+                    <p class="form-group">
+                        <input type="email" name="email" id="iemail" class="form-input" required>
                         <label for="iemail" class="form-label">E-mail:</label>
                     </p>
                     <p class="form-group">
-                        <input type="password" name="senha" id="isenha" class="form-input">
+                        <input type="password" name="senha" id="isenha" class="form-input" required>
                         <label for="isenha" class="form-label">Senha:</label>
                     </p>
                     <p class="form-group">
-                        <input type="password" name="repsenha" id="irepsenha" class="form-input">
+                        <input type="password" name="repsenha" id="irepsenha" class="form-input" required>
                         <label for="irepsenha" class="form-label">Repetir senha:</label>
                     </p>
                 </form>
             </div>
-            <div class="main-all-button">
+            <div class="main-all-button" class="container">
+                <input type="button" value="Faça login">
                 <input type="submit" value="Criar">
-                <input type="button" value="Voltar">
             </div>
             <div class="main-all-esqueci">
 
