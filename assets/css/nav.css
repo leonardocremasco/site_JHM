@@ -83,13 +83,13 @@ header{
 }
 
 /* ------------ HAMBURGUER ----------------------------------- */
-input{
+#menu-hamburguer{
     display: none;
 }
 .hamburguer, .hamburguer::before, .hamburguer::after{
     display: none;
 }
-label{
+#menu-icon{
     display: none;
 }
 
@@ -111,14 +111,14 @@ label{
     margin-bottom: 5px;
     font-size: 35px;
     text-align: right;
-    animation: expandH1 2s ease-in-out forwards;
+    animation: expandH1 3s ease-in-out forwards;
 }
 .secao-linha-branca p{
     opacity: 0;
     margin-bottom: 5px;
     font-size: 20px;
     text-align: right;
-    animation: expandH1 2s ease-in-out forwards;
+    animation: expandH1 3s ease-in-out forwards;
 }
 .secao-linha-branca hr {
     width: 0;
@@ -130,19 +130,20 @@ label{
 }
 
 .secao-linha-azul{
+    display: flex;
+    flex-direction: column;
     width: 60%;
     float: right;
     margin-top: 30px;
     transform: scaleX(-1);
 }
 .secao-linha-azul hr {
-    
     width: 0;
-    height: 3px; /* Ajuste a altura conforme necessário */
+    height: 3px; /*Ajuste de altura*/
     border: 0px;
     background-color: var(--color-blue3);
+    margin-bottom: 7px;
     animation: expandHR 2s ease-in-out forwards; /* Mantém a largura após a animação */
-    
 }
 
 @keyframes expandHR {
@@ -153,20 +154,14 @@ label{
 
 @keyframes expandH1 {
     from {
-        width: 0%;
         opacity: 0;
     }
     to {
-        width: 100%;
         opacity: 1;
     }
 }
 
 /* ----------------------------------------------------------- */
-
-
-
-
 
 
 /* MEDIA QUERY */
@@ -212,7 +207,7 @@ label{
     }
 
     /* HAMBURGUER */
-    label{
+    #menu-icon{
         display: block;
     }
     .hamburguer{
@@ -241,17 +236,17 @@ label{
         bottom: -10px;
     }
 
-    input{
+    #menu-hamburguer{
         display: none;
     }
-    input:checked ~ label .hamburguer{
+    #menu-hamburguer:checked ~ label .hamburguer{
         transform: rotate(45deg);
     }
-    input:checked ~ label .hamburguer::before{
+    #menu-hamburguer:checked ~ label .hamburguer::before{
         transform: rotate(90deg);
         top: 0px;
     }
-    input:checked ~ label .hamburguer::after{
+    #menu-hamburguer:checked ~ label .hamburguer::after{
         transform: rotate(90deg);
         bottom: 0px;
     }
