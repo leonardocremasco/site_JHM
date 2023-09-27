@@ -16,13 +16,13 @@ main{
     animation: expandOpacity 2s ease-in-out forwards;
 }
 
-.main-all-titulo{
-    margin-bottom: 50px;
-}
-
 .main-all-form h2{
     margin: 30px 0 30px 0;
     text-align: center;
+}
+
+.main-all-titulo{
+    margin-bottom: 50px;
 }
 
 .form-group{
@@ -105,4 +105,20 @@ button, input[type="submit"]:hover{
     display: flex;
     gap: 30px;
     position: relative;
+}
+
+#esqueci-senha{
+    margin-top: 20px;
+    transition: 0.2s; 
+}
+#esqueci-senha:hover{
+    margin-top: 20px;
+    transform: scale(1.02);
+    transition: 0.2s; 
+}
+#esqueci-senha a{
+    color: black; 
+}
+#esqueci-senha a:hover{
+    color: black;
 }

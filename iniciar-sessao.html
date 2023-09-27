@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="assets/img/jhm-icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/nav.css">
-    <link rel="stylesheet" href="assets/css/minhaconta.css">
+    <link rel="stylesheet" href="assets/css/iniciar-sessao.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <title>JHM | MINHA CONTA</title>
 </head>
@@ -69,14 +69,8 @@
             </div>
 
             <div class="main-all-form">
-                <h2>Crie uma conta JHM</h2>
+                <h2>Inicie sessão na JHM</h2>
                 <form action="cadastro.php" method="post" autocomplete="on">
-
-                    <p class="form-group">
-                        <input type="text" name="nome" id="inome" class="form-input" required>
-                        <label for="inome" class="form-label">Nome completo:</label>
-                    </p>
-        
                     <p class="form-group">
                         <input type="email" name="email" id="iemail" class="form-input" required>
                         <label for="iemail" class="form-label">E-mail:</label>
@@ -85,15 +79,14 @@
                         <input type="password" name="senha" id="isenha" class="form-input" required>
                         <label for="isenha" class="form-label">Senha:</label>
                     </p>
-                    <p class="form-group">
-                        <input type="password" name="repsenha" id="irepsenha" class="form-input" required>
-                        <label for="irepsenha" class="form-label">Repetir senha:</label>
-                    </p>
                 </form>
             </div>
             <div class="main-all-button" class="container">
-                <a href="iniciar-sessao.html"><input type="button" value="Faça login"></a>
-                <input type="submit" value="Criar">
+                <a href="minhaconta.html"><input type="button" value="Não tenho conta JHM"></a>
+                <input type="submit" value="Entrar">
+            </div>
+            <div id="esqueci-senha">
+                <a href="esqueci-senha.html">Esqueci minha senha</a>
             </div>
         </div>
     </main>
