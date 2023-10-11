@@ -60,6 +60,17 @@ header{
     color: var(--color-white);
     position: relative;
 }
+#ativo a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-blue3);
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
 .nav-item a::after{
     content: '';
     width: 0%;
@@ -73,6 +84,8 @@ header{
 .nav-item a:hover::after{
     width: 100%;
 }
+
+
 
 /* ------------ Mobile --------------------------------------- */
 #menu-icon{
