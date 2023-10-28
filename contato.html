@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/jhm-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <title>JHM | QUALIDADES</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="assets/img/jhm-logo-branco.png" alt="Logo JHM">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
+                    <li class="nav-item"><a href="qualidade.html" class="nav-link">QUALIDADES</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
+                    <li class="nav-item" id="ativo"><a href="contato.html" class="nav-link">CONTATO</a></li>
+                </ul>
+            </div>
+
+            <input type="checkbox" name="" id="menu-hamburguer" onclick="menuAparecer()">
+
+            <label for="menu-hamburguer">
+                <div id="menu-icon">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <div class="nav-profile">
+                <a href="minhaconta.html"><img src="assets/img/perfil.png" alt="Perfil"></a>
+            </div>
+        </nav>
+
+        <div class="menu-mobile">
+            <div class="nav-profile">
+                <a href="minhaconta.html"><img src="assets/img/perfil.png" alt="Perfil"></a>
+            </div>
+            
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
+                <li class="nav-item"><a href="qualidade.html" class="nav-link">QUALIDADES</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="secao-head-pagina">
+        <div class="secao-linha-branca">
+            <h1>CONTATO</h1>
+            <hr>
+            <p>Fale com a JHM Motores</p>
+        </div>
+        <div class="secao-linha-azul">
+            <hr>
+        </div>
+    </section>
+    <main>
+        <div id="imagem-div">
+            <img src="assets/img/desenhocontato.png" alt="Desenho Contato">
+        </div>
+        <div class="container">
+            <div id="container-titulo">
+                <h2>Preencha o formulário abaixo e entre em contato conosco.</h2>
+            </div>
+            <div id="container-inputs">
+                <form action="#" method="get">
+                    <p class="form-group">
+                        <label for="iname" class="form-label">Seu nome:</label>
+                        <input type="text" name="name" id="iname" class="form-input" required>
+                    </p>
+                    <p class="form-group">
+                        <label for="iemail" class="form-label">E-mail:</label>
+                        <input type="email" name="email" id="iemail" class="form-input" required>
+                    </p>
+                    <p class="form-group">
+                        <label for="iassunto" class="form-label">Assunto:</label>
+                        <input type="text" name="assunto" id="iassunto" class="form-input" required>
+                    </p>
+                    <p class="form-group">
+                        <label for="imsg" class="form-label">Sua mensagem:</label>
+                        <textarea name="msg" id="imsg" cols="30" rows="10" class="form-input"></textarea>
+                    </p>
+                </form>
+            </div>
+            <div id="container-buttom">
+                <a href="#"><input type="button" value="Enviar"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="footer-grid">
+            <div class="footer-grid-onde">
+                <h2>Onde Estamos</h2>
+                <p>Rua João Covolan Filho, 352 – Distrito Industrial, Santa Bárbara D´Oeste/SP - CEP: 13456-134</p>
+                <p>(19) 3026-5555</p>
+                <p><a href="mailto:vendas@jhmmotores.com.br">vendas@jhmmotores.com.br</a></p>
+            </div>
+            <div class="footer-grid-img">
+                <img src="assets/img/jhm-logo-96.png" alt="Logo JHM Motores">
+            </div>
+        </section>
+        <div class="direitos">
+            <p class="direitos-p">Todos os Direitos Reservados  JHM Motores - Desenvolvido por alunos da <a href="">FUMEP, EEP</a></p>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
