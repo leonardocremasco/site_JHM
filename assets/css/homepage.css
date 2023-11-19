@@ -40,7 +40,7 @@ main{
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 3%;
 }
 
 .carrossel-images{
@@ -83,11 +83,7 @@ main{
 }
 
 
-.center{
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 40px;
-}
+
 .img-carrossel-centro{
     width: 434px;
     text-align: center;
@@ -143,9 +139,26 @@ main{
   }
 
 
+/*--------------- Divs ------------------------------- */
+
+.container-divs{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.div-gnd{
+    height: 100%;
+    width: 580px;
+    background-color: var(--color-blue3);
+}
+.div-pqn{
+    height: 30%;
+    width: 580px;
+    background-color: var(--color-blue3);
+}
 
 
-/* SLIDE CARROSSEL */
+/*--------------- SLIDE CARROSSEL --------------------*/
 
 .desc-motor{
     display: flex;
@@ -180,4 +193,10 @@ main{
 	transform: scale(1.1);
     text-align: center;
 
+}
+
+.center{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
