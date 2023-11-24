@@ -171,6 +171,9 @@ button>p {
     position: relative;
     right: -15px;
 }
+button:hover {
+    cursor: pointer;
+}
   
 input:not(:placeholder-shown) {
     border-radius: var(--rad) 0 0 var(--rad);
