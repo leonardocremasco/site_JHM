@@ -9,9 +9,8 @@ As ferramentas utilizadas neste projeto foram exclusivamente:
 * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de marcação
 * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Estilização do portfólio
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/) - Usada para criar dinâmismo para o site
-* [PHP](link) - Linguagem de script
+* [PHP](https://www.php.net/) - Linguagem de script
 * [Laravel](https://laravel.com/) - Framework PHP
-* outros...
 
 ## 🤝 Contribuidores
 
