@@ -1,6 +1,6 @@
+@import url(footer.css);
 @import url(reset.css);
 @import url(nav.css);
-@import url(footer.css);
 
 
 :root{
@@ -332,4 +332,9 @@ button, input[type="button"]:hover{
 }
 #container-buttom{
     margin-top: 10px;
+}
+
+
+aside:hover{
+    cursor: pointer;
 }
