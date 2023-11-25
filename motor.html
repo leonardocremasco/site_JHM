@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/jhm-icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/motor.css">
+    <script src="https://kit.fontawesome.com/5ff722f86b.js" crossorigin="anonymous"></script>
     <title>JHM | QUALIDADES</title>
 </head>
 <body>
@@ -18,8 +19,8 @@
                 <ul>
                     <li class="nav-item"><a href="empresa.html" class="nav-link">EMPRESA</a></li>
                     <li class="nav-item"><a href="qualidade.html" class="nav-link">QUALIDADES</a></li>
-                    <li class="nav-item"><a href="produtos.html" class="nav-link">PRODUTOS</a></li>
-                    <li class="nav-item" id="ativo"><a href="contato.html" class="nav-link">CONTATO</a></li>
+                    <li class="nav-item"><a href="produtos.html" class="nav-link" id="ativo">PRODUTOS</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
 
@@ -51,46 +52,54 @@
     </header>
     <section class="secao-head-pagina">
         <div class="secao-linha-branca">
-            <h1>CONTATO</h1>
+            <h1>PRODUTOS</h1>
             <hr>
-            <p>Fale com a JHM Motores</p>
+            <p>Motores elétricos</p>
         </div>
         <div class="secao-linha-azul">
             <hr>
         </div>
     </section>
     <main>
-        <div id="imagem-div">
-            <img src="assets/img/desenhocontato.png" alt="Desenho Contato">
-        </div>
-        <div class="container">
-            <div id="container-titulo">
-                <h2>Preencha o formulário abaixo e entre em contato conosco.</h2>
+        <section class="container-sobre-motor">
+            <img src="assets/img/motores/motor-a-prova-de-explosao.jpg" alt="Motor">
+
+            <div class="sobre-motor">
+                <h2>Motor à prova de explosão</h2>
+
+                <p>Bombas, centrais de ar condicionado, ventiladores, britadores, talhas, compressores, transportadores contínuos, máquinas operatrizes, bobinadeiras, moinhos, trefiladeiras, centrífugas, prensas, guindastes, pontes rolantes, cavalos mecânicos para prospecção de petróleo, elevadores, teares, trituradores, picadores de madeira, injetores, mesas de rolos, torres de resfriamento,embaladeiras e onde houver presença de produtos inflamáveis, com áreas classificadas como Zona 1 (ABNT/IEC).</p>
+
+                <div class="btn-car">
+                    <a href="#">Adicionar ao carrinho <i class="fa-solid fa-cart-plus"></i></a>
+                </div>
             </div>
-            <div id="container-inputs">
-                <form action="#" method="get">
-                    <p class="form-group">
-                        <label for="iname" class="form-label">Seu nome:</label>
-                        <input type="text" name="name" id="iname" class="form-input" required>
-                    </p>
-                    <p class="form-group">
-                        <label for="iemail" class="form-label">E-mail:</label>
-                        <input type="email" name="email" id="iemail" class="form-input" required>
-                    </p>
-                    <p class="form-group">
-                        <label for="iassunto" class="form-label">Assunto:</label>
-                        <input type="text" name="assunto" id="iassunto" class="form-input" required>
-                    </p>
-                    <p class="form-group">
-                        <label for="imsg" class="form-label">Sua mensagem:</label>
-                        <textarea name="msg" id="imsg" cols="30" rows="10" class="form-input"></textarea>
-                    </p>
-                </form>
-            </div>
-            <div id="container-buttom">
-                <a href="#"><input type="button" value="Enviar"></a>
-            </div>
-        </div>
+            
+        </section>
+        <section class="selection">
+            <ul>
+                <li id="ativo">Característica</li>
+                <li>Opcionais</li>
+                <li>Avaliações(0)</li>
+            </ul>
+        </section>
+        <section class="container-selection">
+            <h2>Característica</h2> <!-- Altera conforme a escolha -->
+            <ul>
+                <li>Proteção: IP55;</li>
+                <li>Vedação nos mancais: retentor (90S a 315, II Pólos);</li>
+                <li>Carcaça: Ferro fundido labirinto taconite (315 IV, VI, VIII pólos a 355);</li>
+                <li>Potência: 0,5 a 500cv (carcaças 90S a 355M/L);</li>
+                <li>Termostato;</li>
+                <li>Classe de isolamento “F” (ΔT 80° C);</li>
+                <li>Fator de Serviço: 1.00;</li>
+                <li>Tensões: 220/380V, 380/660V (carcaças 90S a 200L); 220/380/440V (carcaças 225S/M a 355M/L);</li>
+                <li>Cor: Azul RAL 5007;</li>
+                <li>Anel de fixação interno em ambas as tampas, para impedir a propagação das chamas;</li>
+                <li>Placa de identificação contendo: normas, áreas classificadas, categoria de temperatura, número do certificado de conformidade.</li>
+            </ul>
+        </section>
+
+
     </main>
     <footer>
         <section class="footer-grid">
