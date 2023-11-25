@@ -17,7 +17,7 @@ As ferramentas utilizadas neste projeto foram exclusivamente:
 * [Guilherme Fabretti](https://github.com/guifabretti) 
 * [Leonardo Cremasco](https://github.com/leonardocremasco)
 * [Vitor Jensen](https://github.com/vitorjensen)
-* [Guilherme Normidio]()
+* [Guilherme Normidio](https://github.com/Normidio)
 
 ## 🔗 Hospedagem do site
 
