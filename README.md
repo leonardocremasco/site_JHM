@@ -11,7 +11,7 @@ As ferramentas utilizadas neste projeto foram exclusivamente:
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/) - Usada para criar dinâmismo para o site
 * [PHP](https://www.php.net/) - Linguagem de script
 * [Laravel](https://laravel.com/) - Framework PHP
-
+* [MySQL](https://www.mysql.com/) - Gerenciamento de banco de dados
 ## 🤝 Contribuidores
 
 * [Guilherme Fabretti](https://github.com/guifabretti) 
