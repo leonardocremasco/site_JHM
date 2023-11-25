@@ -1,6 +1,6 @@
 # Site JHM Motores Elétricos
 
-Como parte de nosso projeto acadêmico no curso de Ciência da Computação na Escola de Engenharia de Piracicaba, nossa equipe dedicou meses de esforço no desenvolvimento de um website com o propósito de revitalizar e ampliar a base de clientes da empresa. A versão inicial do site representa o resultado de nosso árduo trabalho, e planejamos continuar aprimorando-o ao longo do tempo, adicionando novas funcionalidades para proporcionar uma experiência ainda mais completa aos usuários.
+Como parte de nosso projeto acadêmico no curso de Ciência & Engenharia da Computação na Escola de Engenharia de Piracicaba, nossa equipe dedicou meses de esforço no desenvolvimento de um website com o propósito de revitalizar e ampliar a base de clientes da empresa. A versão inicial do site representa o resultado de nosso árduo trabalho, e planejamos continuar aprimorando-o ao longo do tempo, adicionando novas funcionalidades para proporcionar uma experiência ainda mais completa aos usuários.
 
 ## 🛠️ Construído com
 
