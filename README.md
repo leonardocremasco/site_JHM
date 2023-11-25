@@ -23,5 +23,9 @@ As ferramentas utilizadas neste projeto foram exclusivamente:
 
 https://leonardocremasco.github.io/site_JHM/homepage.html
 
+## Preview
+
+https://github.com/leonardocremasco/site_JHM/assets/72526178/90ccb66e-fd7e-4b11-a4f0-479aab529bdc
+
 ---
 Agradecimento especial ao professor Clerivaldo Jose Roccia pelos insights e ensinamento, além da JHM Motores por confiar em nosso projeto e aceitar utilizarmos o nome da empresa no mesmo. 💌💻
