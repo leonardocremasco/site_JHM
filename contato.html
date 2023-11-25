@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/jhm-icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/iniciar-sessao.css">
-    <title>JHM | MINHA CONTA</title>
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <title>JHM | QUALIDADES</title>
 </head>
 <body>
     <header>
@@ -19,7 +19,7 @@
                     <li class="nav-item"><a href="empresa.html" class="nav-link">EMPRESA</a></li>
                     <li class="nav-item"><a href="qualidade.html" class="nav-link">QUALIDADES</a></li>
                     <li class="nav-item"><a href="produtos.html" class="nav-link">PRODUTOS</a></li>
-                    <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
+                    <li class="nav-item" id="ativo"><a href="contato.html" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
 
@@ -51,40 +51,44 @@
     </header>
     <section class="secao-head-pagina">
         <div class="secao-linha-branca">
-            <h1>MINHA CONTA</h1>
+            <h1>CONTATO</h1>
             <hr>
-            <p>Crie ou entre em sua conta JHM!</p>
+            <p>Fale com a JHM Motores</p>
         </div>
         <div class="secao-linha-azul">
             <hr>
         </div>
     </section>
     <main>
-        <div class="main-all">
-            <div class="main-all-titulo">
-                <h1>Inicie sessão para realizar operações com rapidez.</h1>
+        <div id="imagem-div">
+            <img src="assets/img/desenhocontato.png" alt="Desenho Contato">
+        </div>
+        <div class="container">
+            <div id="container-titulo">
+                <h2>Preencha o formulário abaixo e entre em contato conosco.</h2>
             </div>
-
-            <div class="main-all-form">
-                <h2>Inicie sessão na JHM</h2>
-                <form action="cadastro.php" method="post" autocomplete="on">
+            <div id="container-inputs">
+                <form action="#" method="get">
                     <p class="form-group">
-                        <input type="email" name="email" id="iemail" class="form-input" required>
+                        <label for="iname" class="form-label">Seu nome:</label>
+                        <input type="text" name="name" id="iname" class="form-input" required>
+                    </p>
+                    <p class="form-group">
                         <label for="iemail" class="form-label">E-mail:</label>
+                        <input type="email" name="email" id="iemail" class="form-input" required>
                     </p>
                     <p class="form-group">
-                        <input type="password" name="senha" id="isenha" class="form-input" required>
-                        <label for="isenha" class="form-label">Senha:</label>
+                        <label for="iassunto" class="form-label">Assunto:</label>
+                        <input type="text" name="assunto" id="iassunto" class="form-input" required>
                     </p>
                     <p class="form-group">
-                        <input type="password" name="repsenha" id="irepsenha" class="form-input" required>
-                        <label for="irepsenha" class="form-label">Repetir senha:</label>
+                        <label for="imsg" class="form-label">Sua mensagem:</label>
+                        <textarea name="msg" id="imsg" cols="30" rows="10" class="form-input"></textarea>
                     </p>
                 </form>
             </div>
-            <div class="main-all-button" class="container">
-                <a href="iniciar-sessao.html"><input type="button" value="Voltar"></a>
-                <input type="submit" value="Redefinir">
+            <div id="container-buttom">
+                <a href="#"><input type="button" value="Enviar"></a>
             </div>
         </div>
     </main>

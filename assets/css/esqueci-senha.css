@@ -1,3 +1,8 @@
+@import url(reset.css);
+@import url(nav.css);
+@import url(footer.css);
+
+
 :root{
     --color-blue1: #052149;
     --color-blue2: #093472;
