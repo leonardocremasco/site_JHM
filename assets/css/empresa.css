@@ -32,6 +32,9 @@ h2{
     font-size: 32px;
     margin-bottom: 30px;
 }
+p{
+    font-size: 18px;
+}
 
 .googlemaps{
     width: 100%;

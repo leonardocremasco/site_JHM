@@ -41,6 +41,7 @@ main{
 .descricao>p{
     width: 40%;
     text-align: justify;
+    font-size: 18px;
 }
 .descricao>img{
     width: 180px;

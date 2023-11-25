@@ -254,6 +254,7 @@ main{
 }
 #sobre>p{
     margin-top: 10px; 
+    font-size: 18px;
 }
 #sobre>h2{
     font-size: 32px; 
@@ -272,6 +273,7 @@ main{
 }
 #revenda>p{
     margin-top: 10px;
+    font-size: 18px;
 }
 
 /* ------------- form ------------------------------------- */
