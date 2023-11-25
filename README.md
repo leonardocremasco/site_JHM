@@ -14,10 +14,10 @@ As ferramentas utilizadas neste projeto foram exclusivamente:
 * [MySQL](https://www.mysql.com/) - Gerenciamento de banco de dados
 ## 🤝 Contribuidores
 
-* [Guilherme Fabretti](https://github.com/guifabretti) 
-* [Leonardo Cremasco](https://github.com/leonardocremasco)
-* [Vitor Jensen](https://github.com/vitorjensen)
-* [Guilherme Normidio](https://github.com/Normidio)
+* [Guilherme Fabretti](https://github.com/guifabretti) | RA: 202310286
+* [Leonardo Cremasco](https://github.com/leonardocremasco) | RA: 202310228
+* [Vitor Jensen](https://github.com/vitorjensen) | RA: 202310296
+* [Guilherme Normidio](https://github.com/Normidio) | RA: 202310011
 
 ## 🔗 Hospedagem do site
 
